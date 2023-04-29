@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std ;
+
+
+int main()
+{
+    unsigned int x = 0 ;
+    do
+   {
+     unsigned int a ;
+     cout << "enter a number :";
+     cin >> a ;
+     x++ ;
+     
+     
+     if(a & 1 == 1)
+    {
+        cout << "ODD" << endl ;
+    }
+    else
+    {
+        cout <<"EVEN"<<endl ;
+    }
+    
+    }while (x < 10);
+
+}
